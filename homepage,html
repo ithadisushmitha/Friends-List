@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+    <center>
+        <img src="https://img3.goodfon.com/original/1921x1081/c/37/dance-beach-company-disco.jpg"width="700" height="500">
+        <h1>Welcome To Friendship Zone</h1>
+    </center>
+    <section>
+        <h2>FRIEND</h2>
+        <ul style="color:rgb(14, 83, 34)"><i>Who makes the good times better and the hard times easier.</i></ul>
+        <ul style="color:rgb(7, 76, 69)"><i>The person who would there for you when you can't afford a therapist.</i></ul>
+        <ul style="color:rgb(18, 98, 50)"><i>Someone who listens to your bullshits.</i></ul>
+        <a style="font-size:20px" href="Friendlist.html"><li>CLick to Search Friend.</li></a>
+		<li style="font-size:20px" > Send E-mail for your suggestions : </li>
+            <a style="font-size:20px" href = "mailto:20pa1a0560@vishnu.edu.in"> 20pa1a0560@vishnu.edu.in </a>
+        <h3 style="font-size:10px">Follow us on -</h3>
+	<ul>
+		<a style="font-size:30px" href="https://www.facebook.com/" ><li>Facebook <img src="https://tse1.mm.bing.net/th?id=OIP.WE109lmuCjsw8asJparTPgHaHa&pid=Api&rs=1&c=1&qlt=95&w=121&h=121" width="25" height="25"></li></a><br>
+		<a style="font-size:30px" href="https://www.instagram.com/"><li>Instagram <img src="https://tse1.mm.bing.net/th?id=OIP.owofzNMUTWCPYZG57wBosQHaHW&pid=Api&rs=1&c=1&qlt=95&w=122&h=121" width="25" height="25"></li></a><br>
+		<a style="font-size:30px" href="https://www.twitter.com/"><li>Twitter <img src="https://tse1.mm.bing.net/th?id=OIP._Ujco6PWCgH_UJfPXtPafAHaFj&pid=Api&rs=1&c=1&qlt=95&w=149&h=111" width="25" height="25"></li></a>
+	</ul>
+    <p>All rights reserved</p>
+    </section>
+</body>
+</html>
