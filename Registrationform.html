@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<link rel="icon" href="reg.png" sizes="16x16">
+	<style>
+		body {
+			background-size: cover;
+		}
+		table,
+		th,
+		td,
+		caption {
+			padding: 8px;
+			background-color: rgba(209, 90, 218, 0.888);
+		}
+		button,
+		a {
+			padding: 5px;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<h1 style="color: rgb(0, 0, 0);">Welcome to Registration Form Page.</h1>
+	</center>
+	<hr>
+	<form action="RegistrationConfirmation.html">
+		<table align="center">
+			<caption style="text-decoration:underline;" ><b>Add your details to register.</b></caption>
+			<tr>
+				<th>First Name: </th>
+				<td><input type="text" name="fname" placeholder="Enter First Name" required autofocus></td>
+			</tr>
+			<tr>
+				<th>Middle Name: </th>
+				<td><input type="text" name="mname" placeholder="Enter Middle Name"></td>
+			</tr>
+			<tr>
+				<th>Last Name: </th>
+				<td><input type="text" name="lname" placeholder="Enter Last Name" required></td>
+			</tr>
+			<tr>
+				<th>E-mail: </th>
+				<td><input type="email" name="email" placeholder="Enter E-mail" required></td>
+			</tr>
+			<tr>
+				<th>Age: </th>
+				<td><input type="number" name="age" min="18" max="30"></td>
+			</tr>
+			<tr>
+				<th>Phone Number: </th>
+				<td><input type="tel" name="Phone Number" placeholder="Enter Phone Number"></td>
+			</tr>
+			<tr>
+				<th>Date Of Birth: </th>
+				<td><input type="Date" name="Date Of Birth" min="2000-1-1"></td>
+			</tr>
+			<tr>
+				<th>Gender: </th>
+				<td>
+					<input type="radio" id="Male" name="Gender">Male
+					<input type="radio" id="Female" name="Gender">Female
+					<input type="radio" id="Other" name="Gender">Other
+				</td>
+			</tr>
+			<tr>
+				<th>About: </th>
+				<td><textarea placeholder="type here..."></textarea></td>
+			</tr>
+			<tr>
+				<th>Interested In: </th>
+				<td>
+					<input type="checkbox" id="Friendship" name="Interested In">Friendship
+				</td>
+			</tr>
+			<tr>
+				<th>Attachment: </th>
+				<td><input type="file" name="Attachment" max="1"></td>
+			</tr>
+		</table>
+		<hr>
+		<center><button>Register</button></center>
+	</form>
+	<hr>
+	<center><a href="RegistrationConfirmationForAdmin.html"><button>Register As Admin</button>
+		</a></center>
+</body>
+</html>
